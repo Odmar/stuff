@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<baylandtag>
+    <abgeordnete>
+        <abg beruf="??" gebin="??" gesin="??" name="Kobold" titel="??" vorname="Pumukel" id="a1">
+            <kreisabg/>
+            <parteifktabg/>
+            <parteiabg>
+                <pabg>pabg_2</pabg>
+                <pabg>pabg_1</pabg>
+            </parteiabg>
+        </abg>
+    </abgeordnete>
+    <familie/>
+    <konfession/>
+    <kreis/>
+    <kreisabg/>
+    <orden/>
+    <ordenabg/>
+    <parfkt/>
+    <kreisabg/>
+    <partei>
+        <pa name="CSU" bezeichnung="Christlich-Soziale Union in Bayern" id="p1">
+            <parteiabg>
+                <pabg>pabg_2</pabg>
+                <pabg>pabg_1</pabg>
+            </parteiabg>
+        </pa>
+    </partei>
+    <parteiabg>
+        <pabg bis="2010-04-04T00:00:00+02:00" von="2000-02-02T00:00:00+01:00" id="pabg_1">
+            <abg>a1</abg>
+            <partei>p1</partei>
+        </pabg>
+        <pabg bis="1998-04-04T00:00:00+02:00" von="1990-02-02T00:00:00+01:00" id="pabg_2">
+            <abg>a1</abg>
+            <partei>p1</partei>
+        </pabg>
+    </parteiabg>
+    <staatabg/>
+    <staatsregierung/>
+</baylandtag>

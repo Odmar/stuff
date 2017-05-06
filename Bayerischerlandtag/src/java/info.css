@@ -1,0 +1,35 @@
+.text-wrapper {
+    width: 590px;
+    font-family: sans-serif;
+    line-height: 21px;
+    z-index:400;
+    margin-top: 0px;
+  
+
+}
+
+.text-wrapper .image {
+	heigth:auto;
+	width: 100%;
+	
+	z-index:300;
+	opacity:0.05;
+	position: fixed;
+	margin-top: 10%;
+ -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+	
+}
+.underline {
+    width:70px;
+    float: left;
+}
+
+.pbxl{
+    padding-bottom: 12px;
+}
+
+.text-wrapper .mbl {
+    margin-bottom: 13px;
+}

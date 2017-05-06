@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<baylandtag>
+    <abgeordnete>
+        <abg beruf="Gaukler" fam="f1" gebam="2860-06-13T00:00:00+02:00" gebin="München" gesam="2860-06-13T00:00:00+02:00" gesin="München" konf="k1" name="Kobold" titel="Dr." vorname="Pumukel" id="a1">
+            <kreisabg>
+                <krbg>krbg_1</krbg>
+            </kreisabg>
+            <setOrdenAbg id="orbg_1">
+                <abg>a1</abg>
+                <orden bezeichnung="Bayerischer Verdienstorden" id="o1">
+                    <setOrdenAbg>orbg_1</setOrdenAbg>
+                </orden>
+            </setOrdenAbg>
+            <parteifktabg>
+                <pabg>pfbg_1</pabg>
+            </parteifktabg>
+            <parteiabg>
+                <pabg>pabg_1</pabg>
+            </parteiabg>
+            <setStaatAbg id="stbg_1">
+                <abg>a1</abg>
+                <bis>2010-04-04T00:00:00+02:00</bis>
+                <staat bezeichnung="Ministerpräsident" id="s1">
+                    <setStaatAbg>stbg_1</setStaatAbg>
+                </staat>
+                <von>2000-02-02T00:00:00+01:00</von>
+            </setStaatAbg>
+        </abg>
+    </abgeordnete>
+    <familie>
+        <fam bezeichnung="ledig" id="f1"/>
+    </familie>
+    <konfession>
+        <konf bezeichnung="römisch-katholisch" id="k1"/>
+    </konfession>
+    <kreis>
+        <kr type="W" bezeichnung="Oberbayern" id="kr1">
+            <kreisabg>
+                <krbg>krbg_1</krbg>
+            </kreisabg>
+        </kr>
+        <kr type="S" bezeichnung="Würzburg-Land" id="kr2">
+            <kreisabg/>
+        </kr>
+    </kreis>
+    <kreisabg>
+        <krbg bis="2010-04-04T00:00:00+02:00" von="2000-02-02T00:00:00+01:00" id="krbg_1">
+            <abg>a1</abg>
+            <kreis>kr1</kreis>
+        </krbg>
+    </kreisabg>
+    <orden>
+        <ord bezeichnung="Bayerischer Verdienstorden" id="o1">
+            <setOrdenAbg>orbg_1</setOrdenAbg>
+        </ord>
+        <ord bezeichnung="Ritterkreuz" id="o2"/>
+    </orden>
+    <ordenabg>
+        <oabg id="orbg_1">
+            <abg>a1</abg>
+            <orden bezeichnung="Bayerischer Verdienstorden" id="o1">
+                <setOrdenAbg>orbg_1</setOrdenAbg>
+            </orden>
+        </oabg>
+    </ordenabg>
+    <parfkt>
+        <pf bezeichnung="Ältestenrat" id="f1">
+            <parteiabg>
+                <pabg>pfbg_1</pabg>
+            </parteiabg>
+        </pf>
+        <pf bezeichnung="Ausschuß für den Staatshaushalt" id="f2">
+            <parteiabg/>
+        </pf>
+    </parfkt>
+    <kreisabg>
+        <kabg bis="2010-04-04T00:00:00+02:00" von="2000-02-02T00:00:00+01:00" id="pfbg_1">
+            <abg>a1</abg>
+            <parfkt>f1</parfkt>
+        </kabg>
+    </kreisabg>
+    <partei>
+        <pa name="CSU" bezeichnung="Christlich-Soziale Union in Bayern" id="p1">
+            <parteiabg>
+                <pabg>pabg_1</pabg>
+            </parteiabg>
+        </pa>
+        <pa name="BP" bezeichnung="Bayernpartei" id="p2">
+            <parteiabg/>
+        </pa>
+    </partei>
+    <parteiabg>
+        <pabg bis="2010-04-04T00:00:00+02:00" von="2000-02-02T00:00:00+01:00" id="pabg_1">
+            <abg>a1</abg>
+            <partei>p1</partei>
+        </pabg>
+    </parteiabg>
+    <staatabg>
+        <sabg id="stbg_1">
+            <abg>a1</abg>
+            <bis>2010-04-04T00:00:00+02:00</bis>
+            <staat bezeichnung="Ministerpräsident" id="s1">
+                <setStaatAbg>stbg_1</setStaatAbg>
+            </staat>
+            <von>2000-02-02T00:00:00+01:00</von>
+        </sabg>
+    </staatabg>
+    <staatsregierung>
+        <staat bezeichnung="Ministerpräsident" id="s1">
+            <setStaatAbg>stbg_1</setStaatAbg>
+        </staat>
+        <staat bezeichnung="Finanzminster" id="s2"/>
+    </staatsregierung>
+</baylandtag>

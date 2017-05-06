@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="VBox" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.nm.ltxml.gui.MainPageController">
+  <children>
+    <MenuBar fx:id="menuBar" maxHeight="-Infinity" prefHeight="40.0" prefWidth="900.0" VBox.vgrow="NEVER">
+      <menus>
+        <Menu fx:id="sortierung" mnemonicParsing="false" text="Sortierung">
+               <items>
+                  <MenuItem fx:id="vornameSort" mnemonicParsing="false" onAction="#vornameSortAction" text="Vornamen" />
+                  <MenuItem fx:id="nachnameSort" mnemonicParsing="false" onAction="#nachnameSortAction" text="Nachnamen" />
+                  <MenuItem fx:id="wahlperiodeSort" mnemonicParsing="false" onAction="#wahlperiodeSortAction" text="Wahlperiode" />
+               </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Info">
+          <items>
+                  <MenuItem fx:id="resetWindow" mnemonicParsing="false" onAction="#resetWindowAction" text="Daten neu laden" />
+            <MenuItem fx:id="help" mnemonicParsing="false" onAction="#helpAction" text="Info" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+    <SplitPane fx:id="splitpane" dividerPositions="0.2505567928730512" focusTraversable="true" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <items>
+        <AnchorPane fx:id="achorpane">
+          <children>
+                  <TreeView fx:id="treeView" layoutY="55.0" onEditStart="#fillTree" prefHeight="513.0" prefWidth="207.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="55.0" />
+                  <TextField fx:id="textfield" layoutX="52.0" layoutY="15.0" onAction="#selectedText" prefHeight="25.0" prefWidth="160.0" AnchorPane.leftAnchor="52.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="20.0" />
+                  <Label fx:id="label" layoutX="5.0" layoutY="24.0" prefHeight="17.0" prefWidth="42.0" text="Suche:" />
+          </children>
+        </AnchorPane>
+        <ScrollPane fx:id="scrollPane" prefHeight="536.0" prefWidth="412.0">
+          <content>
+            <AnchorPane id="Content" fx:id="apane" minHeight="-1.0" minWidth="-1.0" prefHeight="545.0" prefWidth="430.0">
+              <children>
+                        <WebView fx:id="webView" layoutX="83.0" layoutY="114.0" prefHeight="543.0" prefWidth="630.0" AnchorPane.bottomAnchor="-18.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="-220.0" AnchorPane.topAnchor="20.0" />
+              </children>
+            </AnchorPane>
+          </content>
+        </ScrollPane>
+      </items>
+    </SplitPane>
+  </children>
+  <stylesheets>
+    <URL value="@default.css" />
+  </stylesheets>
+</VBox>

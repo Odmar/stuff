@@ -1,0 +1,76 @@
+<div class="wrapper">
+<div class="headline">
+    <h3>Abgeordneter: $name</h3>
+    </div>
+    <div class="person-data" style="display: inline-flex;">
+    <div class="img-wrapper">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Bernhard_seidenath.jpg" height="300">
+        </div>
+        <div class="person-data-list">
+            <table class="table">
+                <tr class="table-style">
+    <td>Name:</td> 
+    <td>Bernhard</td>
+  </tr>
+  <tr>
+    <td>Nachname:</td> <td>Seidenath</td>
+  </tr>
+  <tr>
+    <td>Geburtsdatum:</td> <td>DD-MM-YY</td>
+  </tr>
+  <tr>
+    <td>Geburtsort:</td> <td>München</td>
+  </tr>
+  <tr>
+    <td>Familienstand:</td> <td>ledig</td>
+  </tr>
+  <tr>
+    <td>Konfesion</td>: <td>rk</td>
+  </tr>
+            </table>
+        </div>
+        </div>
+       <table>
+  <tr>
+    <th>Partei: $partei</th>
+  </tr>
+  <tr>
+    <td>Funktion: odjspdjpsdojk</td>
+  </tr>
+  <tr>
+    <td>Mitlied von: DD-MM-YY</td>
+  </tr>
+  <tr>
+    <td>Mitlied bis: DD-MM-YY</td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <th>Partei: $partei</th>
+  </tr>
+  <tr>
+    <td>Funktion: odjspdjpsdojk</td>
+  </tr>
+  <tr>
+    <td>Mitlied von: DD-MM-YY</td>
+  </tr>
+  <tr>
+    <td>Mitlied bis: DD-MM-YY</td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <th>Partei: $partei</th>
+  </tr>
+  <tr>
+    <td>Funktion: odjspdjpsdojk</td>
+  </tr>
+  <tr>
+    <td>Mitlied von: DD-MM-YY</td>
+  </tr>
+  <tr>
+    <td>Mitlied bis: DD-MM-YY</td>
+  </tr>
+</table>
+    
+</div>

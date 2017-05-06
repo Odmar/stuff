@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<baylandtag>
+    <abgeordnete>
+        <abg beruf="??" fam="f1" gebin="??" gesin="??" konf="k1" name="Kobold" titel="??" vorname="Pumukel" id="a1">
+            <kreisabg/>
+            <parteifktabg/>
+            <parteiabg/>
+        </abg>
+    </abgeordnete>
+    <familie>
+        <fam bezeichnung="ledig" id="f1"/>
+    </familie>
+    <konfession>
+        <konf bezeichnung="römisch-katholisch" id="k1"/>
+    </konfession>
+    <kreis>
+        <kr type="W" bezeichnung="Oberbayern" id="kr1">
+            <kreisabg/>
+        </kr>
+        <kr type="S" bezeichnung="Würzburg-Land" id="kr2">
+            <kreisabg/>
+        </kr>
+    </kreis>
+    <kreisabg/>
+    <orden>
+        <ord bezeichnung="Bayerischer Verdienstorden" id="o1"/>
+        <ord bezeichnung="Ritterkreuz" id="o2"/>
+    </orden>
+    <ordenabg/>
+    <parfkt>
+        <pf bezeichnung="Ältestenrat" id="f1">
+            <parteiabg/>
+        </pf>
+        <pf bezeichnung="Ausschuß für den Staatshaushalt" id="f2">
+            <parteiabg/>
+        </pf>
+    </parfkt>
+    <kreisabg/>
+    <partei>
+        <pa name="CSU" bezeichnung="Christlich-Soziale Union in Bayern" id="p1">
+            <parteiabg/>
+        </pa>
+        <pa name="BP" bezeichnung="Bayernpartei" id="p2">
+            <parteiabg/>
+        </pa>
+    </partei>
+    <parteiabg/>
+    <staatabg/>
+    <staatsregierung>
+        <staat bezeichnung="Ministerpräsident" id="s1"/>
+        <staat bezeichnung="Finanzminster" id="s2"/>
+    </staatsregierung>
+</baylandtag>
